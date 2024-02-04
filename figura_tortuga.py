@@ -31,62 +31,63 @@ def plot_polygon():
     # GL_QUADS
     # GL_QUAD_STRIP
 
-    #azul
+
+    # azul
     glBegin(GL_QUADS)
     glColor3f(0.0, 0.0, 1.0)
-    glVertex2f(-60, 40)
-    glVertex2f(-90, 70)
-    glVertex2f(-60, 100)
-    glVertex2f(-30, 70)
-    glEnd()
-
-    #naranja
-    glBegin(GL_TRIANGLES)
-    glColor3f(1.0, 0.75, 0.0)
-    glVertex2f(-60, 40)
-    glVertex2f(-120, 40)
-    glVertex2f(-90, 70)
-    glEnd()
-
-    # verde
-    glBegin(GL_TRIANGLES)
-    glColor3f(0.0, 1.0, 0.0)
-    glVertex2f(0, 100)
-    glVertex2f(60, 40)
-    glVertex2f(-60, 40)
+    glVertex2f(120, 5)
+    glVertex2f(95, 30)
+    glVertex2f(120, 55)
+    glVertex2f(145, 30)
     glEnd()
 
     #amarillo
     glBegin(GL_TRIANGLES)
     glColor3f(1.0, 1.0, 0.0)
-    glVertex2f(-20, 40)
-    glVertex2f(60, 40)
-    glVertex2f(60, -40)
+    glVertex2f(45, -20)
+    glVertex2f(95, 30)
+    glVertex2f(45, 80)
+    glEnd()
+
+    #verde
+    glBegin(GL_TRIANGLES)
+    glColor3f(0.0, 1.0, 0.0)
+    glVertex2f(-5, 30)
+    glVertex2f(45, -20)
+    glVertex2f(45, 80)
     glEnd()
 
     #morado
     glBegin(GL_TRIANGLES)
     glColor3f(0.5, 0.0, 0.5)
-    glVertex2f(60, -40)
-    glVertex2f(90, -70)
-    glVertex2f(30, -70)
+    glVertex2f(17, 6)
+    glVertex2f(10, -25)
+    glVertex2f(-22, -21)
     glEnd()
 
-    #rojo
+    # naranja
     glBegin(GL_TRIANGLES)
-    glColor3f(1.0, 0.0, 0.0)
-    glVertex2f(115, -15)
-    glVertex2f(60, 40)
-    glVertex2f(60, -15)
+    glColor3f(1.0, 0.75, 0.0)
+    glVertex2f(17, 52)
+    glVertex2f(12, 85)
+    glVertex2f(-22, 81)
     glEnd()
 
-    #rosa
+    # rosa
     glBegin(GL_QUADS)
     glColor3f(1.5, 0.0, 0.5)
-    glVertex2f(115, -15)
-    glVertex2f(150, -50)
-    glVertex2f(115, -50)
-    glVertex2f(80, -15)
+    glVertex2f(107, 115.5)
+    glVertex2f(107, 82.5)
+    glVertex2f(74, 51.5)
+    glVertex2f(74, 83.5)
+    glEnd()
+
+    # rojo
+    glBegin(GL_TRIANGLES)
+    glColor3f(1.0, 0.0, 0.0)
+    glVertex2f(97, -36)
+    glVertex2f(62, -69)
+    glVertex2f(62, 0)
     glEnd()
 
 done = False
