@@ -64,7 +64,7 @@ def plot_polygon():
     glVertex2f(0, 0)
     glVertex2f(0, -50)
     glVertex2f(50, -50)
-    glEnd()
+    glEnd() #
 
     glBegin(GL_TRIANGLES)
     glColor3f(1.0, 5.0, 0.0)
